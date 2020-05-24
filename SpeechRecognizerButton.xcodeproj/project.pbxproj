@@ -139,6 +139,7 @@
 				814DED3620442E4000DCDDE0 /* Products */,
 				814DED4F20442E5700DCDDE0 /* Frameworks */,
 			);
+			indentWidth = 5;
 			sourceTree = "<group>";
 		};
 		814DED3620442E4000DCDDE0 /* Products */ = {
