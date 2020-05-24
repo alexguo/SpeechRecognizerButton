@@ -6,14 +6,13 @@ let package = Package(
   platforms: [
     .iOS(.v11)
   ],
-  dependencies : [],
   products: [
-        .library(
-            name: "SpeechRecognizerButton",
-            targets: ["SpeechRecognizerButton"]),
-    ],
+    .library(
+      name: "SpeechRecognizerButton",
+      targets: ["SpeechRecognizerButton"]),
+  ],
   targets: [
     .target(name: "SpeechRecognizerButton", path: "SpeechRecognizerButton")
   ]
-// exclude: ["Example", "ExampleUITests", "SpeechRecognizerButtonTests"]
+  // exclude: ["Example", "ExampleUITests", "SpeechRecognizerButtonTests"]
 )
