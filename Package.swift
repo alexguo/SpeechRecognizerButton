@@ -1,8 +1,11 @@
-// swift-tools-version:5.0
+// swift-tools-version:4.1
 import PackageDescription
 
 let package = Package(
   name: "SpeechRecognizerButton",
   dependencies : [],
-  exclude: ["Example", "ExampleUITests", "SpeechRecognizerButtonTests"]
+  targets: [
+    .target(name: "SpeechRecognizerButton", path: "SpeechRecognizerButton")
+  ]
+// exclude: ["Example", "ExampleUITests", "SpeechRecognizerButtonTests"]
 )
