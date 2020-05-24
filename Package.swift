@@ -3,10 +3,10 @@ import PackageDescription
 
 let package = Package(
   name: "SpeechRecognizerButton",
-  dependencies : [],
   platforms: [
     .iOS(.v11)
   ],
+  dependencies : [],
   products: [
         .library(
             name: "SpeechRecognizerButton",
